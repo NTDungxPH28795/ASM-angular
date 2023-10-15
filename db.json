@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "name": "sản phẩm 1 update",
+      "price": "100",
+      "description": "Mô tả 1",
+      "id": 1,
+      "imageURL": "https://picsum.photos/100/100"
+    },
+    {
+      "name": "Sản phẩm 2",
+      "price": "200",
+      "description": "Mô tả 2",
+      "id": 2,
+      "imageURL": "https://loremflickr.com/100/100"
+    },
+    {
+      "name": "Sản phẩm 3",
+      "imageURL": "",
+      "price": "300",
+      "description": "haksjdhjasd",
+      "id": 3
+    }
+  ],
+  "users": []
+}
