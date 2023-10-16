@@ -1,26 +1,86 @@
 {
   "products": [
     {
-      "name": "sản phẩm 1 update",
-      "price": "100",
-      "description": "Mô tả 1",
-      "id": 1,
-      "imageURL": "https://picsum.photos/100/100"
+      "name": "Halobios",
+      "imageURL": "https://res.cloudinary.com/dwxumu69m/image/upload/v1697345237/POP%20MART/uyfdmwa5ztjqsg3ppd8n.jpg",
+      "price": "299",
+      "description": "The mare of animals",
+      "id": 1
     },
     {
-      "name": "Sản phẩm 2",
-      "price": "200",
-      "description": "Mô tả 2",
-      "id": 2,
-      "imageURL": "https://loremflickr.com/100/100"
+      "name": "Rabbit",
+      "imageURL": "https://res.cloudinary.com/dwxumu69m/image/upload/v1697345231/POP%20MART/pjsmfzm9fgcokzyjt5l8.jpg",
+      "price": "318",
+      "description": "The mare of animals",
+      "id": 2
     },
     {
-      "name": "Sản phẩm 3",
-      "imageURL": "",
-      "price": "300",
-      "description": "haksjdhjasd",
+      "name": "Unicorn",
+      "imageURL": "https://res.cloudinary.com/dwxumu69m/image/upload/v1697345229/POP%20MART/xpmhpd6etzlztxe3tay0.jpg",
+      "price": "285",
+      "description": "The mare of animals",
       "id": 3
+    },
+    {
+      "name": "Feline",
+      "imageURL": "https://res.cloudinary.com/dwxumu69m/image/upload/v1697345223/POP%20MART/bioqbalkbqfeott3j5nw.jpg",
+      "price": "285",
+      "description": "The mare of animals",
+      "id": 4
+    },
+    {
+      "name": "Polar Bear",
+      "imageURL": "https://res.cloudinary.com/dwxumu69m/image/upload/v1697345222/POP%20MART/mcpcz0pe89odwxeamt3n.jpg",
+      "price": "285",
+      "description": "The mare of animals",
+      "id": 5
+    },
+    {
+      "name": "Fox",
+      "imageURL": "https://res.cloudinary.com/dwxumu69m/image/upload/v1697345209/POP%20MART/dnxrvj2ualknjuffrhds.jpg",
+      "price": "430",
+      "description": "The mare of animals",
+      "id": 6
+    },
+    {
+      "name": "Elephant",
+      "imageURL": "https://res.cloudinary.com/dwxumu69m/image/upload/v1697345188/POP%20MART/ai8znrjqezljzyxzyb8y.jpg",
+      "price": "243",
+      "description": "The mare of animals",
+      "id": 7
+    },
+    {
+      "name": "Penguin",
+      "imageURL": "https://res.cloudinary.com/dwxumu69m/image/upload/v1697345186/POP%20MART/du0zkekuuw61gz53r8et.jpg",
+      "price": "232",
+      "description": "The mare of animals",
+      "id": 8
+    },
+    {
+      "name": "Passenger Pigeon",
+      "imageURL": "https://res.cloudinary.com/dwxumu69m/image/upload/v1697345157/POP%20MART/rwipeybyjzcmfmyn4ybx.jpg",
+      "price": "243",
+      "description": "The mare of animals",
+      "id": 9
     }
   ],
-  "users": []
+  "users": [
+    {
+      "name": "Dungx",
+      "email": "tiendung18112002@gmail.com",
+      "password": "123123",
+      "confirmPassword": "123123",
+      "id": 1
+    },
+    {
+      "email": "tiendung18112002@gmail.com",
+      "password": "123123",
+      "id": 2
+    },
+    {
+      "email": "tiendung18112002@gmail.com",
+      "password": "1231233",
+      "id": 3
+    }
+  ]
 }

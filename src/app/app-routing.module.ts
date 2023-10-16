@@ -9,11 +9,16 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { DashboardPageComponent } from './pages/admin/dashboard-page/dashboard-page.component';
 import { ProductManagerPageComponent } from './pages/admin/product-manager-page/product-manager-page.component';
 import { ProductFormComponent } from './components/product-form/product-form.component';
+import { SigninComponent } from './pages/signin/signin.component';
+import { SignupComponent } from './pages/signup/signup.component';
 
 const routes: Routes = [
   {path: "", component: BaseLayoutComponent, children: [
     {path: "", component: HomePageComponent},
-    {path: "product", component: ProductPageComponent},
+    // {path: "product", component: ProductPageComponent},
+    {path: "product/:id", component: ProductPageComponent},
+    {path: "signup", component: SignupComponent},
+    {path: "signin", component: SigninComponent},
     {path: "contact", component: AboutPageComponent}
   ]},
   {path: "admin", component: AdminLayoutComponent, children: [

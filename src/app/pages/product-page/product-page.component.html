@@ -1,1 +1,31 @@
-<p>product-page works!</p>
+<section class="py-5 mt-5">
+    <div class="container product-detail px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 text-align-center">
+            <div class="col-md-6"><img class="card-img-top rounded-2"
+                    [src]="product.imageURL"
+                    alt="..."></div>
+            <div class="col-md-6">
+                <h1 class="display-5 fw-bolder">{{product.name}}</h1>
+                <div class="fs-5 mb-5">
+                    <span>{{product.price | currency : "VND" : "symbol" : "1.3-3"}}</span>
+                </div>
+                <p class="lead">{{product.description}}</p>
+                <div class="">
+                    <label for="disabledSelect" class="form-label">Số lượng</label>
+                    <input class="form-control text-center p-2 me-3" id="inputQuantity" type="num" value="1"
+                        style="max-width: 3rem">
+                </div>
+                <div class="d-flex">
+                    <button class="btn btn-dark m-3" type="button">
+                        <i class="bi-cart-fill me-1"></i>
+                        Thêm Vào Giỏ Hàng
+                    </button>
+                    <button class="btn btn-dark m-3" type="button">
+                        <i class="bi-cart-fill me-1"></i>
+                        Mua Ngay
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

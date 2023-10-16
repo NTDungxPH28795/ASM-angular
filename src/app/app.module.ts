@@ -18,6 +18,8 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProductListComponent } from './components/product-list/product-list.component';
+import { SignupComponent } from './pages/signup/signup.component';
+import { SigninComponent } from './pages/signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { ProductListComponent } from './components/product-list/product-list.com
     NavComponent,
     BaseLayoutComponent,
     AdminLayoutComponent,
-    ProductListComponent
+    ProductListComponent,
+    SignupComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
